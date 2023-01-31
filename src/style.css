@@ -1,0 +1,127 @@
+body {
+  background: #ffffff;
+  font-family: "Sono", sans-serif;
+  max-width: 100%;
+}
+:root {
+  --primary-color: #005792;
+  --secondary-color: #00bbf0;
+  --third-color: #fdb44b;
+  --forth-color: #00204a;
+  --box-shadow: 5px 5px 10px rgba(119, 81, 1, 0.5);
+}
+.my-photo img {
+  width: 100%;
+  height: auto;
+  margin-top: -32px;
+}
+.my-photo {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+.text-center {
+  text-align: center;
+}
+.shirt {
+  margin-top: 100px;
+}
+h1 {
+  color: var(--primary-color) !important;
+  font-size: 56px !important;
+}
+h2 {
+  color: var(--secondary-color) !important;
+  font-size: 36px !important;
+  padding: 5px 0 !important;
+}
+h3 {
+  color: var(--forth-color) !important;
+  font-size: 18px !important;
+  margin: 10px 0 10px 0 !important;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 30px 20% 20px 20%;
+}
+.buttons a {
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 20px;
+}
+
+#contact-mail {
+  font-size: 24px;
+  text-align: center;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 30% 0px 30%;
+  color: var(--secondary-color);
+}
+.contact a {
+  color: var(--secondary-color);
+}
+
+p {
+  color: var(--forth-color);
+  font-size: 16px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+.container-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+}
+.container {
+  padding: 0 !important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.primary-link {
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.primary-link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.secondary-link {
+  background: #ffffff;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+.secondary-link:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.navigation-links a {
+  margin: 20px;
+}
+.navbar-brand {
+  margin-left: 10px;
+}
