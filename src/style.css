@@ -1,4 +1,5 @@
 body {
+  margin-top: 80px;
   background: #ffffff;
   font-family: "Sono", sans-serif;
   max-width: 100%;
@@ -8,7 +9,7 @@ body {
   --secondary-color: #00bbf0;
   --third-color: #fdb44b;
   --forth-color: #00204a;
-  --box-shadow: 5px 5px 10px rgba(119, 81, 1, 0.5);
+  --box-shadow: 5px 5px 10px rgba(104, 101, 114, 0.5);
 }
 .my-photo img {
   width: 100%;
@@ -22,80 +23,41 @@ body {
   border-radius: 50%;
   margin: 0 auto 10px auto;
 }
-.text-center {
-  text-align: center;
-}
-.shirt {
-  margin-top: 100px;
-}
+
 h1 {
-  color: var(--primary-color) !important;
-  font-size: 56px !important;
+  color: var(--primary-color);
+  font-size: 56px;
 }
 h2 {
-  color: var(--secondary-color) !important;
-  font-size: 36px !important;
-  padding: 5px 0 !important;
+  color: var(--secondary-color);
+  font-size: 36px;
+  padding: 5px 0;
 }
 h3 {
-  color: var(--forth-color) !important;
-  font-size: 18px !important;
-  margin: 10px 0 10px 0 !important;
+  color: var(--forth-color);
+  font-size: 18px;
 }
-.buttons {
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.navigation-links {
   display: flex;
   justify-content: center;
-  margin: 30px 20% 20px 20%;
+  margin-top: 40px;
 }
-.buttons a {
-  color: var(--primary-color);
-  text-decoration: none;
+.navigation-links a {
   margin: 20px;
-}
-
-#contact-mail {
-  font-size: 24px;
-  text-align: center;
-}
-
-.contacts {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 20px 30% 0px 30%;
-  color: var(--secondary-color);
-}
-.contact a {
-  color: var(--secondary-color);
-}
-
-p {
-  color: var(--forth-color);
-  font-size: 16px;
-  padding: 0px;
-  margin: 0px 0px 10px 0px;
-}
-.container-main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 10px 20px 10px 20px;
-}
-.container {
-  padding: 0 !important;
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
 }
 .primary-link {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
-  padding: 20px 20px;
+  padding: 20px 15px;
   text-decoration: none;
-  font-size: 16px;
   border-radius: 4px;
-  border: 1px solid var(--primary-color);
   transition: all 200ms ease-in-out;
   cursor: pointer;
 }
@@ -104,12 +66,10 @@ p {
   cursor: pointer;
 }
 .secondary-link {
-  background: #ffffff;
   text-transform: capitalize;
   color: var(--primary-color);
-  padding: 20px 20px;
+  padding: 20px 15px;
   text-decoration: none;
-  font-size: 16px;
   border-radius: 4px;
   border: 1px solid var(--primary-color);
   transition: all 200ms ease-in-out;
@@ -119,8 +79,55 @@ p {
   opacity: 0.7;
   cursor: pointer;
 }
-.navigation-links a {
-  margin: 20px;
+#contact-mail {
+  font-size: 24px;
+  text-align: center;
+}
+.contacts {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 30% 0px 30%;
+  color: var(--secondary-color);
+}
+.contact a {
+  color: var(--secondary-color);
+}
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+p {
+  color: var(--forth-color);
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px 0px 10px 0px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+/* .container-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 20px 10px 20px;
+}
+.container {
+  padding: 0 !important;
+} */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 .navbar-brand {
   margin-left: 10px;
