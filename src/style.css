@@ -105,6 +105,9 @@ p {
   padding: 0px;
   margin: 0px 0px 10px 0px;
 }
+.pro {
+  margin-bottom: 20px;
+}
 .email-link {
   display: flex;
   justify-content: center;
@@ -121,3 +124,5 @@ p {
   max-width: 100%;
   height: auto;
 }
+/* @media (max-width: 600px) {
+} */
